@@ -1,0 +1,34 @@
+// Base
+$open_font          :   'Open Sans', sans-serif;
+$monts_font         :   'Montserrat', sans-serif;
+$base_fz            :   14px;
+$fw_200             :   200;
+$fw_300             :   300;
+$fw_400             :   400;
+$fw_600             :   600;
+$fw_700             :   700;
+
+// Colors
+$primary_clr        :   #4871d1;
+$secondary_clr      :   #00b67a;
+$dark_blue          :   #192236;
+$light_blue         :   #ecf1fa;
+$white_clr          :   #ffffff;
+$black_clr          :   #192236;
+$med_grey           :   #d0d0d0;
+
+// Borders
+$bor_black          :   1px solid $black_clr;
+$bor_light_blue     :   1px solid $light_blue;
+$bor_ddd            :   1px solid #dddddd;
+$bor_d_blue			:   1px solid $primary_clr;
+
+// Media Sizes
+$break_1280         :   1280px;
+$break_1080         :   1080px;
+$break_991          :   991px;
+$break_768          :   768px;
+
+/*
+@media (max-width: $break_768) {}
+*/

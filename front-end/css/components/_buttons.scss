@@ -1,0 +1,102 @@
+/* ---------- Buttons ---------- */
+.btn_i {
+    padding-right: 70px;
+    padding-left: 25px;
+    background-color:$white_clr;
+    color:$primary_clr;
+    position: relative;
+    display: inline-block;
+    min-width: 200px;
+    height: 60px;
+    text-transform: uppercase;
+    font-weight:$fw_700;
+    line-height: 60px;
+    border-radius: 30px;
+    text-align:left;
+    &:hover {
+        color:$primary_clr;
+    }
+    @media (max-width: $break_768) {
+        height:44px;
+        line-height: 44px;
+        padding-left:20px;
+    }
+    span {
+        background-color:$primary_clr;
+        color:$white_clr;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 50px;
+        font-size: 2em;
+        @media (max-width: $break_768) {
+            width: 34px;
+            height: 34px;
+            line-height:34px;
+            font-size:1.4em;
+        }
+    }
+}
+.btn {
+    min-width:200px;
+    height: 60px;
+    line-height: 60px;
+    font-weight:$fw_700;
+    padding: 0;
+    background-color:$dark_blue;
+    color:$white_clr;
+    border: none;
+    border-radius: 35px;
+    &:hover {
+        opacity:0.8;
+    }
+    @media (max-width: $break_768) {
+        height: 44px;
+        line-height: 44px;
+        min-width:170px;
+    }
+}
+.btn_blue {
+    background-color:$primary_clr;
+    color:$white_clr;
+    &:hover {
+        opacity:0.8;
+        color:$white_clr;
+    }
+}
+.btn_green {
+    background-color:$secondary_clr;
+    color:$white_clr;
+    &:hover {
+        opacity:0.8;
+        color:$white_clr;
+    }
+}
+.btn_grey {
+    background-color:$med_grey;
+    color:$white_clr;
+    &:hover {
+        opacity:0.8;
+        color:$white_clr;
+    }
+}
+.btn_sm {
+    padding:3px 10px;
+    font-size:0.9em;
+    border-radius:4px;
+    display: inline-block;
+    text-align: center;
+}
+.btn_sm2 {
+    padding:3px 10px;
+    font-size:0.9em;
+    border-radius:4px;
+    display: inline-block;
+    text-align: center;
+    line-height:1.6;
+    height:auto;
+}

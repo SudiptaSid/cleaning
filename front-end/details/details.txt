@@ -1,0 +1,28 @@
+After log in pages:-
+--------------------
+Customer:
+--------------------
+==> [Dashboard Page] List of Bookings with Search Feature + Create Booking
+	-> Reschedule booking in Pop Up
+	-> Cancel booking in pop up
+	-> Resend quote For a booking in Pop Up
+	-> Make Payment Pop Up
+==> Booking Detail in a seperate page with Quote Lists
+	-> Cleaner Summery in Pop Up card
+==> Can view/edit profile information, Change Password
+==> Payment history with Search Feature
+----------------------
+Cleaner:
+----------------------
+==> [Dashboard Page] Open/Ongoing Job
+==> List of Services ( with status e.g. pending , confirmed, ongoing , completed ) with Search Feature
+	-> Service detail in Pop Up; Buttons:- There is not enough info, Accept
+==> Edit Personal settings like hourly rate
+------------------------
+Admin:
+------------------------
+==> [Dashboard Page] Bookings History With Search Feature
+==> Transaction History With Search Feature
+==> Active User List With Search Feature;View detail in Pop Up, Approve
+==> Pending/Inactive User list
+==> Settings Update e.g. Platform fee per booking , About, Contact

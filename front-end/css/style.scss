@@ -1,0 +1,29 @@
+// Google Font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700&display=swap');
+
+// Bootstrap
+@import "bootstrap/bootstrap.scss";
+
+// Font Awesome
+@import "font_awesome/font-awesome.scss";
+
+// Owl Carousel
+@import "owl_carousel/owl.carousel.scss";
+@import "owl_carousel/owl.theme.default.scss";
+
+// Datepicker
+@import "bootstrap-datepicker.min.css";
+
+// Star Rating
+@import "star-rating.css";
+
+// Custom
+@import "components/variables";
+@import "components/mixins";
+@import "components/reset";
+@import "components/buttons";
+@import "components/form";
+@import "components/header";
+@import "components/footer";
+@import "components/sections";
